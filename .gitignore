@@ -1,0 +1,55 @@
+# Python 缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Python 打包 / 构建生成的文件
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+
+# 虚拟环境文件夹
+venv/
+.venv/
+env/
+ENV/
+
+# 常用代码编辑器 / IDE 配置文件
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter Notebook 自动生成的检查点
+.ipynb_checkpoints/
+
+# 数据集文件 
+data/
+*/data/
+datasets/
+*/datasets/
+
+# 模型权重 / 训练检查点 
+*.pt*
+*.ckpt
+checkpoints/
+*/checkpoints/
+
+# 训练产生的日志 / 输出结果
+runs/
+*/runs/
+logs/
+*/logs/
+outputs/
+*/outputs/
+results/
+*/results/
+
+# 测试/暂存文件
+test(ignore)/
+
+# 操作系统自动生成的系统文件
+Thumbs.db
